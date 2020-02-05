@@ -1,0 +1,4 @@
+C:\Users\j.schwab\source\repos\Annoucements\Annoucements\bin\Debug\Annoucements.pdb
+C:\Users\j.schwab\source\repos\Annoucements\Annoucements\obj\Debug\Annoucements.csproj.CoreCompileInputs.cache
+C:\Users\j.schwab\source\repos\Annoucements\Annoucements\obj\Debug\Annoucements.dll
+C:\Users\j.schwab\source\repos\Annoucements\Annoucements\obj\Debug\Annoucements.pdb

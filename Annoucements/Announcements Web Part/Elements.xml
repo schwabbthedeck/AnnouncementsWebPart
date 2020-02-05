@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ClientWebPart Name="Announcements Web Part" Title="Announcements Web Part" 
+                 Description="A web part used to style SharePoint's default announcement list views on pages." 
+                 DefaultWidth="600" DefaultHeight="600">
+
+    <!-- Content element identifies the location of the page that will render inside the client web part
+         Properties are referenced on the query string using the pattern _propertyName_
+         Example: Src="~appWebUrl/Pages/ClientWebPart1.aspx?Property1=_property1_" -->
+    <Content Type="html" Src="~appWebUrl/Pages/AnnouncementsWebPart.aspx?{StandardTokens}&amp;AnnouncementsListTitle=_AnnouncementsListTitle_&amp;ShowDate=_ShowDate_&amp;NumberOfAnnouncementsToShow=_NumberOfAnnouncementsToShow_" />
+
+    <!-- Define properties in the Properties element.
+         Remember to put Property Name on the Src attribute of the Content element above. -->
+    <Properties>
+      <Property
+        Name="AnnouncementsListTitle"
+        Type="string"
+        RequiresDesignerPermission="true"
+        DefaultValue=""
+        WebCategory="Announcements Custom Properties"
+        WebDisplayName="Announcements List Title">
+      </Property>
+      <Property
+        Name="ShowDate"
+        Type="boolean"
+        RequiresDesignerPermission="true"
+        DefaultValue="true"
+        WebCategory="Announcements Custom Properties"
+        WebDisplayName="Show Date">
+      </Property>
+      <Property
+        Name="NumberOfAnnouncementsToShow"
+        Type="int"
+        RequiresDesignerPermission="true"
+        DefaultValue="5"
+        WebCategory="Announcements Custom Properties"
+        WebDisplayName="Number of Announcements to Show">
+      </Property>
+    </Properties>
+
+  </ClientWebPart>
+</Elements>
