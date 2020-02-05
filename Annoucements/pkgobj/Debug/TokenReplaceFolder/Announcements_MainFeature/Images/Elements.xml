@@ -3,5 +3,7 @@
   <Module Name="Images">
     <File Path="Images\AppIcon.png" Url="Images/AppIcon.png" ReplaceContent="TRUE" />
     <File Path="Images\AnnouncementsWebPartScreenShot.png" Url="Images/AnnouncementsWebPartScreenShot.png" ReplaceContent="TRUE" />
+    <File Path="Images\AnnouncementsWebPartAddWebPart.png" Url="Images/AnnouncementsWebPartAddWebPart.png" ReplaceContent="TRUE" />
+    <File Path="Images\AnnouncementsWebPartProperties.png" Url="Images/AnnouncementsWebPartProperties.png" ReplaceContent="TRUE" />
   </Module>
 </Elements>

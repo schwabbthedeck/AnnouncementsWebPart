@@ -22,15 +22,45 @@
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
 
     <div>
-        <h1>Welcome to Announcements web part</h1>
+        <h1>Announcements Web Part App</h1>
 				<br />
 				<h2>Overview</h2>
 				<%--<p>Requires read access to the host site collection to gather list information that will be shown in the web parts.</p>--%>
-				<p>The Announcements web part is designed to display annoucements from the out-of-the-box annoucements list.</p>
-				<p><img src="../Images/AnnouncementsWebPartScreenShot.png" alt="Announcements Web Part Example" width="450" style="border: 1px solid #444;"/></p>
-				<p>The web part relies on the out-of-the-box columns that are associated with the annoucements list template. This is why the web part can only be used with a list that was created using the announcements list template.</p>
-				<h2>Adding and Configuring the web part:</h2>
-				<p>TODO: add information here</p>
+				<p>The Announcements web part is designed to display announcements from an out-of-the-box announcements list in SharePoint.</p>
+				<p>The web part relies on the out-of-the-box columns that are associated with the announcements list template. This is why the web part can only be used with a list that was created using the announcements list template.</p>				
+				<figure>
+						<img src="../Images/AnnouncementsWebPartScreenShot.png" alt="Announcements Web Part Example" width="450" style="border: 1px solid #444;"/>
+						<figcaption>Screen Shot of Announcements Web Part</figcaption>
+				</figure>
+				<br />
+				<h2>Add Announcements Web Part</h2>
+				<p>Once the Announcements app has been added to the site, navigate to a page in which the announcements are to be shown.</p>
+				<p>Add the web part to the desired zone by selecting "Announcements Web Part".</p>
+				<figure>
+						<img src="../Images/AnnouncementsWebPartAddWebPart.png" alt="Add Announcements Web Part" width="400" style="border: 1px solid #444;"/>
+						<figcaption>Add Announcements Web Part</figcaption>
+				</figure>
+				<br />
+				<h2>Configure Announcements Web Part</h2>
+				<p>Once the web part is added, access the web part's property panel.</p>
+				<p>The properties to be set are as followed:</p>
+				<ul>
+						<li><strong>Announcements List Title</strong>: Title of the list that is to be shown in the web part. If left blank, a message will appear prompting configuration is necessary.</li>
+						<li><strong>Number of Announcements to Show</strong>: Number specifying how many announcments to show. Defaulted to 5. Most recently modified announcements will be shown first.</li>
+						<li><strong>Show Date</strong>: Checkbox to notate if the date should be shown along with the announcement. Defaulted to checked (true). Date shown is the date the announcement was last modified.</li>
+				</ul>
+				<p>Note:</p>
+						<ul>
+								<li>Announcements are sorted by last modified date. The most recently modified announcement items will be shown at the top.</li>
+								<li>If the current date is after the "Expires" date of the announcement, it will not show.</li>
+								<li>The list specified had to be created using the announcements list template. If another type of list template is used, the app will display an error specifying an announcements list must be used.</li>
+								<li>When specifying the list title, ensure there are no leading or trailing spaces and the list title is spelled correctly.</li>
+								<li>If any of the out-of-the-box columns are removed from the list, the web part will not work.</li>
+						</ul>
+				<figure>
+						<img src="../Images/AnnouncementsWebPartProperties.png" alt="Announcements Web Part Properties" width="300" style="border: 1px solid #444;" />
+						<figcaption>Announcements Web Part Property</figcaption>
+				</figure>
     </div>
 
 </asp:Content>
