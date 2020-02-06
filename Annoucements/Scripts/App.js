@@ -8,6 +8,8 @@ var appWebUrl = decodeURIComponent(getQueryStringParameter("SPAppWebUrl"));
 var listTitle = decodeURIComponent(getQueryStringParameter("AnnouncementsListTitle"));
 var showDate = decodeURIComponent(getQueryStringParameter("ShowDate"));
 var numberToShow = decodeURIComponent(getQueryStringParameter("NumberOfAnnouncementsToShow"));
+var dateBackgroundColor = decodeURIComponent(getQueryStringParameter("DateCircleBackgroundColor"));
+var dateTextColor = decodeURIComponent(getQueryStringParameter("DateCircleTextColor"));
 
 function getQueryStringParameter(paramToRetrieve) {
   var params = document.URL.split("?")[1].split("&");
@@ -73,15 +75,19 @@ function renderWebPart() {
     var html = "";
     for (var i = 0; i < items.length; i++) {
       var modDate = new Date(items[i].Modified);
+      var dateStyleString = 'style="' + (dateBackgroundColor == '' ? '' : 'background:' + dateBackgroundColor + '; ') +
+        (dateTextColor == '' ? '' : 'color:' + dateTextColor + ';') + '"'; 
       var dateHtml = '' +
-        '<div class="date">' +
+        '<div class="date" ' + dateStyleString + '>' +
           '<span class="month">' + months[modDate.getMonth()] + '</span>' +
           '<span class="day">' + modDate.getDate() + '</span>' +
         '</div>';
       html += '' +
         '<div class="announcement-container">' +
-          (showDate == "true" ? dateHtml : '') +
-          '<div class="title">' + items[i].Title + '</div>' +
+          '<div class="title-container">' +
+            (showDate == "true" ? dateHtml : '') +
+            '<div class="title">' + items[i].Title + '</div>' +
+          '</div>' +
           '<div class="body">' + items[i].Body + '</div>' +
         '</div>';
     }

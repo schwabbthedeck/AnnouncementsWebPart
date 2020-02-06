@@ -2,4 +2,3 @@ C:\Users\j.schwab\source\repos\Annoucements\Annoucements\bin\Debug\Announcements
 C:\Users\j.schwab\source\repos\Annoucements\Annoucements\obj\Debug\Announcements.csproj.CoreCompileInputs.cache
 C:\Users\j.schwab\source\repos\Annoucements\Annoucements\obj\Debug\Announcements.dll
 C:\Users\j.schwab\source\repos\Annoucements\Annoucements\obj\Debug\Announcements.pdb
-C:\Users\j.schwab\source\repos\Annoucements\Annoucements\obj\Debug\Announcements.csprojAssemblyReference.cache

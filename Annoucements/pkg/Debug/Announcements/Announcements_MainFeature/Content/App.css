@@ -19,7 +19,7 @@
 						display: inline-block;
 						margin: 10px;
 						border-radius: 100%;
-						background: #ff530d;
+						background: #000;
 						color: #fff;
 				}
 
@@ -40,11 +40,12 @@
 								top: 2px;
 						}
 
-				#announcements .announcement-container .title {
-						font-size: 20px;
-						display: inline-block;
-						margin-left: 5px;
-				}
+						#announcements .announcement-container .title {
+								font-size: 20px;
+								display: inline-block;
+								margin-left: 5px;
+								width: calc(-80px + 100%);
+						}
 
 				#announcements .announcement-container .body {
 						margin: 0px 5px;

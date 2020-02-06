@@ -11,6 +11,18 @@
     <%--<script type="text/javascript" src="../Scripts/jquery-3.4.1.min.js"></script>--%>
     <%--<SharePoint:ScriptLink name="sp.js" runat="server" OnDemand="true" LoadAfterUI="true" Localizable="false" />--%>
     <meta name="WebPartPageExpansion" content="full" />
+		<style>
+			figure {
+					display: inline-block;
+					margin: 15px 30px;
+			}
+			figure img {
+					border: 1px solid #444;
+			}
+			figure figcaption {
+					text-align: center;
+			}
+		</style>
 </asp:Content>
 
 <%-- The markup in the following Content element will be placed in the TitleArea of the page --%>
@@ -29,7 +41,7 @@
 				<p>The Announcements web part is designed to display announcements from an out-of-the-box announcements list in SharePoint.</p>
 				<p>The web part relies on the out-of-the-box columns that are associated with the announcements list template. This is why the web part can only be used with a list that was created using the announcements list template.</p>				
 				<figure>
-						<img src="../Images/AnnouncementsWebPartScreenShot.png" alt="Announcements Web Part Example" width="450" style="border: 1px solid #444;"/>
+						<img src="../Images/AnnouncementsWebPartScreenShot.png" alt="Announcements Web Part Example" width="450"/>
 						<figcaption>Screen Shot of Announcements Web Part</figcaption>
 				</figure>
 				<br />
@@ -37,7 +49,7 @@
 				<p>Once the Announcements app has been added to the site, navigate to a page in which the announcements are to be shown.</p>
 				<p>Add the web part to the desired zone by selecting "Announcements Web Part".</p>
 				<figure>
-						<img src="../Images/AnnouncementsWebPartAddWebPart.png" alt="Add Announcements Web Part" width="400" style="border: 1px solid #444;"/>
+						<img src="../Images/AnnouncementsWebPartAddWebPart.png" alt="Add Announcements Web Part" width="400"/>
 						<figcaption>Add Announcements Web Part</figcaption>
 				</figure>
 				<br />
@@ -58,7 +70,7 @@
 								<li>If any of the out-of-the-box columns are removed from the list, the web part will not work.</li>
 						</ul>
 				<figure>
-						<img src="../Images/AnnouncementsWebPartProperties.png" alt="Announcements Web Part Properties" width="300" style="border: 1px solid #444;" />
+						<img src="../Images/AnnouncementsWebPartProperties.png" alt="Announcements Web Part Properties" width="300" />
 						<figcaption>Announcements Web Part Property</figcaption>
 				</figure>
     </div>

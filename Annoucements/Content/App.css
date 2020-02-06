@@ -13,15 +13,18 @@
 				border-bottom: 1px solid #bebebd;
 		}
 
-				#announcements .announcement-container .date {
-						width: 50px;
-						height: 50px;
-						display: inline-block;
-						margin: 10px;
-						border-radius: 100%;
-						background: #ff530d;
-						color: #fff;
-				}
+						#announcements .announcement-container .title-container {
+						}
+
+						#announcements .announcement-container .date {
+								width: 50px;
+								height: 50px;
+								display: inline-block;
+								margin: 10px;
+								border-radius: 100%;
+								background: #000;
+								color: #fff;
+						}
 
 						#announcements .announcement-container .date .month {
 								font-size: 10px;
@@ -40,11 +43,12 @@
 								top: 2px;
 						}
 
-				#announcements .announcement-container .title {
-						font-size: 20px;
-						display: inline-block;
-						margin-left: 5px;
-				}
+						#announcements .announcement-container .title {
+								font-size: 20px;
+								display: inline-block;
+								margin-left: 5px;
+								width: calc(-80px + 100%);
+						}
 
 				#announcements .announcement-container .body {
 						margin: 0px 5px;
