@@ -1,1 +1,1 @@
-C:\Users\j.schwab\source\repos\Annoucements\Annoucements\bin\Debug\Announcements.debugapp
+C:\Users\Jane\source\repos\AnnouncementsWebPart\Annoucements\bin\Debug\Announcements.debugapp

@@ -48,6 +48,8 @@
     <Content Include="Images\AnnouncementsWebPartAddWebPart.png" />
     <Content Include="Images\AnnouncementsWebPartProperties.png" />
     <Content Include="Images\AnnouncementsWebPartScreenShot.png" />
+    <Content Include="Images\AnnouncementsWebPartSetProperties.png" />
+    <Content Include="Images\AppIcon2.png" />
     <Content Include="Pages\AnnouncementsWebPart.aspx" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />

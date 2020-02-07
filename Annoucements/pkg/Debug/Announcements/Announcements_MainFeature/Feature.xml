@@ -16,6 +16,8 @@
     <ElementFile Location="Images\AnnouncementsWebPartScreenShot.png" />
     <ElementFile Location="Images\AnnouncementsWebPartAddWebPart.png" />
     <ElementFile Location="Images\AnnouncementsWebPartProperties.png" />
+    <ElementFile Location="Images\AppIcon2.png" />
+    <ElementFile Location="Images\AnnouncementsWebPartSetProperties.png" />
   </ElementManifests>
   <UpgradeActions>
     <VersionRange>

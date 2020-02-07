@@ -6,5 +6,7 @@
     <ProjectItemFile Source="AnnouncementsWebPartScreenShot.png" Target="Images\" Type="ElementFile" />
     <ProjectItemFile Source="AnnouncementsWebPartAddWebPart.png" Target="Images\" Type="ElementFile" />
     <ProjectItemFile Source="AnnouncementsWebPartProperties.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="AppIcon2.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="AnnouncementsWebPartSetProperties.png" Target="Images\" Type="ElementFile" />
   </Files>
 </ProjectItem>

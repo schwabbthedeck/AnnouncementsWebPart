@@ -2,13 +2,14 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <SharePointSiteUrl>https://janeschwab.sharepoint.com/sites/TestPubPortal20109/</SharePointSiteUrl>
+    <OfficeAndSharePointStartAction>Microsoft Edge</OfficeAndSharePointStartAction>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
       <FlavorProperties GUID="{C1CDDADD-2546-481F-9697-4EA41081F2FC}">
         <ProjectStore>
-          <AppInstancePackageModifiedTime>2020-02-06T13:22:15.3976123Z</AppInstancePackageModifiedTime>
-          <AppInstanceId>d3ec99a6-33f4-4132-a841-23034540b0da</AppInstanceId>
+          <AppInstancePackageModifiedTime>2020-02-07T19:16:30.8007409Z</AppInstancePackageModifiedTime>
+          <AppInstanceId>f273a4cf-65f8-4e20-9758-9c82099f6824</AppInstanceId>
         </ProjectStore>
       </FlavorProperties>
     </VisualStudio>

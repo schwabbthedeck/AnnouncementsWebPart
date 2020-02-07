@@ -84,8 +84,10 @@ function renderWebPart() {
         '</div>';
       html += '' +
         '<div class="announcement-container">' +
-          (showDate == "true" ? dateHtml : '') +
-          '<div class="title">' + items[i].Title + '</div>' +
+          '<div class="title-container">' +
+            (showDate == "true" ? dateHtml : '') +
+            '<div class="title">' + items[i].Title + '</div>' +
+          '</div>' +
           '<div class="body">' + items[i].Body + '</div>' +
         '</div>';
     }
