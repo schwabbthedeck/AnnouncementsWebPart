@@ -1,0 +1,5 @@
+C:\Users\j.schwab\source\repos\Annoucements\Annoucements\bin\Release\Announcements.pdb
+C:\Users\j.schwab\source\repos\Annoucements\Annoucements\obj\Release\Announcements.csprojAssemblyReference.cache
+C:\Users\j.schwab\source\repos\Annoucements\Annoucements\obj\Release\Announcements.csproj.CoreCompileInputs.cache
+C:\Users\j.schwab\source\repos\Annoucements\Annoucements\obj\Release\Announcements.dll
+C:\Users\j.schwab\source\repos\Annoucements\Annoucements\obj\Release\Announcements.pdb

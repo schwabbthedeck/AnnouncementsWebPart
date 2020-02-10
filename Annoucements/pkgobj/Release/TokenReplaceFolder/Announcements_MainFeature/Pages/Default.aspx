@@ -11,7 +11,7 @@
     <%--<script type="text/javascript" src="../Scripts/jquery-3.4.1.min.js"></script>--%>
     <%--<SharePoint:ScriptLink name="sp.js" runat="server" OnDemand="true" LoadAfterUI="true" Localizable="false" />--%>
     <meta name="WebPartPageExpansion" content="full" />
-		<style>
+		<style type="text/css">
 			figure {
 					display: inline-block;
 					margin: 15px 30px;
@@ -33,7 +33,7 @@
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
 
-    <div>
+    <div style="max-width: 900px;">
         <h1>Announcements Web Part App</h1>
 				<br />
 				<h2>Overview</h2>
@@ -55,11 +55,17 @@
 				<br />
 				<h2>Configure Announcements Web Part</h2>
 				<p>Once the web part is added, access the web part's property panel.</p>
-				<p>The properties to be set are as followed:</p>
+				<p>There are two sections of properties that can be set: Announcements Custom Properties and Announcements Optional Properties. The properties to be set are outlined below. The "Announcements Custom Properties" control the main functions of the web part including what list to display, how many items to display, and if the date should be shown. The "Announcements Optional Properties" controls the date's background color and text color. The properties are described in more detail below.</p>
+				<p>Announcements Custom Properties</p>
 				<ul>
 						<li><strong>Announcements List Title</strong>: Title of the list that is to be shown in the web part. If left blank, a message will appear prompting configuration is necessary.</li>
-						<li><strong>Number of Announcements to Show</strong>: Number specifying how many announcments to show. Defaulted to 5. Most recently modified announcements will be shown first.</li>
-						<li><strong>Show Date</strong>: Checkbox to notate if the date should be shown along with the announcement. Defaulted to checked (true). Date shown is the date the announcement was last modified.</li>
+						<li><strong>Number of Announcements to Show</strong>: Number specifying how many announcements to show. Defaulted to 5. Most recently modified announcements will be shown first.</li>
+						<li><strong>Show Date</strong>: Check box to notate if the date should be shown along with the announcement. Defaulted to checked (true). Date shown is the date the announcement was last modified.</li>
+				</ul>
+				<p>Announcements Optional Properties</p>
+				<ul>
+						<li><strong>Date Circle Background Color</strong>: Color that should be set on the date circle, formatted as it would be for "background" property in CSS. If left blank, color is set to black.</li>
+						<li><strong>Date Circle Text Color</strong>: Color that should be set on the text in the date circle, formatted as it would be for "color" property in CSS. If left blank, color is set to white.</li>
 				</ul>
 				<p>Note:</p>
 						<ul>
@@ -68,11 +74,18 @@
 								<li>The list specified had to be created using the announcements list template. If another type of list template is used, the app will display an error specifying an announcements list must be used.</li>
 								<li>When specifying the list title, ensure there are no leading or trailing spaces and the list title is spelled correctly.</li>
 								<li>If any of the out-of-the-box columns are removed from the list, the web part will not work.</li>
+								<li>If either color property is not set/left blank, the default background color is black and the default text color is white.</li>
+								<li>If either color property is not set correctly, the web part may not appear correctly.</li>
 						</ul>
 				<figure>
 						<img src="../Images/AnnouncementsWebPartProperties.png" alt="Announcements Web Part Properties" width="300" />
-						<figcaption>Announcements Web Part Property</figcaption>
+						<figcaption>Announcements Web Part Properties</figcaption>
 				</figure>
+				<figure>
+						<img src="../Images/AnnouncementsWebPartSetProperties.png" alt="Announcements Web Part Set Properties" width="300" />
+						<figcaption>Announcements Web Part Set Properties</figcaption>
+				</figure>
+
     </div>
 
 </asp:Content>

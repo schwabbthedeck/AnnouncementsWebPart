@@ -76,7 +76,7 @@ function renderWebPart() {
     for (var i = 0; i < items.length; i++) {
       var modDate = new Date(items[i].Modified);
       var dateStyleString = 'style="' + (dateBackgroundColor == '' ? '' : 'background:' + dateBackgroundColor + '; ') +
-        (dateTextColor == '' ? '' : 'color:' + dateTextColor + ';'); 
+        (dateTextColor == '' ? '' : 'color:' + dateTextColor + ';') + '"'; 
       var dateHtml = '' +
         '<div class="date" ' + dateStyleString + '>' +
           '<span class="month">' + months[modDate.getMonth()] + '</span>' +
@@ -84,8 +84,10 @@ function renderWebPart() {
         '</div>';
       html += '' +
         '<div class="announcement-container">' +
-          (showDate == "true" ? dateHtml : '') +
-          '<div class="title">' + items[i].Title + '</div>' +
+          '<div class="title-container">' +
+            (showDate == "true" ? dateHtml : '') +
+            '<div class="title">' + items[i].Title + '</div>' +
+          '</div>' +
           '<div class="body">' + items[i].Body + '</div>' +
         '</div>';
     }

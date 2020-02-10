@@ -41,7 +41,7 @@
         Type="string"
         RequiresDesignerPermission="true"
         DefaultValue=""
-        WebCategory="Announcements Custom Properties"
+        WebCategory="Announcements Optional Properties"
         WebDisplayName="Date Circle Background Color">
       </Property>
       <Property
@@ -49,7 +49,7 @@
         Type="string"
         RequiresDesignerPermission="true"
         DefaultValue=""
-        WebCategory="Announcements Custom Properties"
+        WebCategory="Announcements Optional Properties"
         WebDisplayName="Date Circle Text Color">
       </Property>
     </Properties>

@@ -64,8 +64,8 @@
 				</ul>
 				<p>Announcements Optional Properties</p>
 				<ul>
-						<li><strong>Date Circle Background Color</strong>: Color that should be set on the date circle, formatted as it would be for "background" property in CSS.</li>
-						<li><strong>Date Circle Text Color</strong>: Color that should be set on the text in the date circle, formatted as it would be for "color" property in CSS.</li>
+						<li><strong>Date Circle Background Color</strong>: Color that should be set on the date circle, formatted as it would be for "background" property in CSS. If left blank, color is set to black.</li>
+						<li><strong>Date Circle Text Color</strong>: Color that should be set on the text in the date circle, formatted as it would be for "color" property in CSS. If left blank, color is set to white.</li>
 				</ul>
 				<p>Note:</p>
 						<ul>
@@ -74,6 +74,7 @@
 								<li>The list specified had to be created using the announcements list template. If another type of list template is used, the app will display an error specifying an announcements list must be used.</li>
 								<li>When specifying the list title, ensure there are no leading or trailing spaces and the list title is spelled correctly.</li>
 								<li>If any of the out-of-the-box columns are removed from the list, the web part will not work.</li>
+								<li>If either color property is not set/left blank, the default background color is black and the default text color is white.</li>
 								<li>If either color property is not set correctly, the web part may not appear correctly.</li>
 						</ul>
 				<figure>

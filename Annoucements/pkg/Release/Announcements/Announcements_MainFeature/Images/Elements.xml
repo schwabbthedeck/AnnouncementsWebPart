@@ -5,5 +5,7 @@
     <File Path="Images\AnnouncementsWebPartScreenShot.png" Url="Images/AnnouncementsWebPartScreenShot.png" ReplaceContent="TRUE" />
     <File Path="Images\AnnouncementsWebPartAddWebPart.png" Url="Images/AnnouncementsWebPartAddWebPart.png" ReplaceContent="TRUE" />
     <File Path="Images\AnnouncementsWebPartProperties.png" Url="Images/AnnouncementsWebPartProperties.png" ReplaceContent="TRUE" />
+    <File Path="Images\AppIcon2.png" Url="Images/AppIcon2.png" ReplaceContent="TRUE" />
+    <File Path="Images\AnnouncementsWebPartSetProperties.png" Url="Images/AnnouncementsWebPartSetProperties.png" ReplaceContent="TRUE" />
   </Module>
 </Elements>
