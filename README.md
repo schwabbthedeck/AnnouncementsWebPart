@@ -8,6 +8,8 @@ The web part relies on the out-of-the-box columns that are associated with the a
 ![alt text](https://github.com/schwabthedeck/AnnouncementsWebPart/blob/master/Annoucements/Images/AnnouncementsWebPartScreenShot.png "Announcements Web Part Example")
 
 ### Installation
+Dowload a copy of the latest Announcements.app file in the Releases folder.
+Upload that file to the App Catalog in the Apps for SharePoint library.
 
 ### Add Announcements Web Part
 Once the Announcements app has been added to the site, navigate to a page in which the announcements are to be shown.
